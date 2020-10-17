@@ -1,0 +1,10 @@
+post http://localhost:3003/api/posts
+Content-Type: application/json 
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpZCI6IjVkNzM1MzNhZDkyYTEzNTZjYzI4OTFiYiIsImlhdCI6MTU2Nzg1Nzc2NH0.PAeW6aJAiP9rU2vIRrESVElWreA-fiNTRAqacxgF6OM
+
+{
+    "title": "t111ss",
+    "author": "author",
+    "url": "urlurl"
+  }
+
