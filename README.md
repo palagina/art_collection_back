@@ -2,6 +2,7 @@
 
 <p>Deployed <a href="https://article-collection-mp.herokuapp.com/">HERE</a></p>
 <p>Frontend source code <a href="https://github.com/palagina/art_collection_front">HERE</a></p>
+To start: "npm install", and then "npm run watch"
 
 <p>A single page CRUD React application that uses REST APIs built with Node.js.</p>
 <p>What is used: React, React Router, React hooks, Redux, Redux Thunk, Node, Axios, MongoDB, Mongoose, Express, Bcrypt, JSON server, CORS, ESLint, Jest, Cypress, Mongo-mock, Supertest, Cross-env, JSON Web Token, Prop-types.
