@@ -18,10 +18,10 @@ User data is stored in MongoDB database. Passwords are hashed by Bcrypt. User au
 
 <h3>Basic Functionality</h3>
 <p>The user can add, edit, delete, like and comment the articles. When adding a new article, its name and author are required, url however is optional. To edit an existing articile, the user can add the name of the article name that is already in the database and add the new author or url for it.</p>
-<p>State management is implemented with Redux, to enable asynchronous actions Redux Thunk is used. RESTfull API is built with Node and Express. The data from the web server is fetched via Axios. Cross-origin resource sharing implemented with the use of Node's CORS middleware.</p>
+<p>State management is implemented with Redux, to enable asynchronous actions Redux Thunk is used. RESTful API is built with Node and Express. The data from the web server is fetched via Axios. Cross-origin resource sharing implemented with the use of Node's CORS middleware.</p>
 
 <h3>Testing</h3>
-<p>Testing for frontend are performed with Jest, for backend - with Mongo-mock and Supertest. E2E tests are performed via Cypress.</p>
+<p>Tests for frontend are performed with Jest, for backend - with Mongo-mock and Supertest. E2E tests are performed via Cypress.</p>
 
 <h3>Other notes</h3>
 <p>Styling is done with Semantic UI</p>
